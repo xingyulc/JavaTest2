@@ -13,6 +13,7 @@ public class App {
     public static void main(String[] args)  throws IOException {
         Programme programme = new Programme();
         Thread thread = new Thread(programme);
+        thread.start();
     }
 
 
